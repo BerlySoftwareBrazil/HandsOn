@@ -1,0 +1,11 @@
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\bin\Debug\HandsOn.Data.dll.config
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\bin\Debug\HandsOn.Data.dll
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\bin\Debug\HandsOn.Data.pdb
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\bin\Debug\EntityFramework.dll
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\bin\Debug\EntityFramework.xml
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\obj\Debug\HandsOn.Data.Migrations.InitialCreate.resources
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\obj\Debug\HandsOn.Data.csproj.GenerateResource.Cache
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\obj\Debug\HandsOn.Data.dll
+C:\GitHub\HandsOn\HandsOn.Web.UI\HandsOn.Data\obj\Debug\HandsOn.Data.pdb
