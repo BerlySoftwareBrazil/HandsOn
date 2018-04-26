@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Web.UI", "HandsOn.Web.UI\HandsOn.Web.UI.csproj", "{2A5D1525-D545-47EF-9D79-BC50B4A51DB6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Data", "HandsOn.Data\HandsOn.Data.csproj", "{3A621060-5255-4913-8D48-42310165360C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Web", "HandsOn.Web\HandsOn.Web.csproj", "{9016DD04-C7B3-49A5-95C6-75471A26FFF3}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A5D1525-D545-47EF-9D79-BC50B4A51DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A5D1525-D545-47EF-9D79-BC50B4A51DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A5D1525-D545-47EF-9D79-BC50B4A51DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A5D1525-D545-47EF-9D79-BC50B4A51DB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A621060-5255-4913-8D48-42310165360C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A621060-5255-4913-8D48-42310165360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A621060-5255-4913-8D48-42310165360C}.Release|Any CPU.ActiveCfg = Release|Any CPU

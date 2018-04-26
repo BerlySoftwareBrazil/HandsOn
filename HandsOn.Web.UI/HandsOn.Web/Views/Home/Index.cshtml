@@ -1,9 +1,8 @@
 ﻿@model IEnumerable<HandsOn.Web.ViewModels.CrimeSceneData>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Descubra do Assassino";
 }
-
-<h2>Index</h2>
+<h2>@ViewBag.Title</h2>
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
@@ -11,26 +10,31 @@
     @Html.Hidden("WeaponId", null, new { weaponId = ViewBag.WeaponId })
     @Html.Hidden("PlaceId", null, new { placeId = ViewBag.PlaceId })
     @Html.ValidationSummary(true, "", new { @class = "text-danger"})
-    <b>@ViewBag.SuspectId</b><br /><b>@ViewBag.WeaponId</b><br /><b>@ViewBag.PlaceId</b>
+    <div class="form-horizontal">
 
-    <div class="form-group">
+        <div class="form-group">
 
-        <label class="control-label col-md-2">Suspeito</label>
-        <div class="col-md-10">
-            @Html.DropDownList("SelectedSuspects", "Selecione")
+            <label class="control-label col-md-2">Suspeito</label>
+            <div class="col-md-10">
+                @Html.DropDownList("SelectedSuspects", null, "Selecione", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Local</label>
+            <div class="col-md-10">
+                @Html.DropDownList("SelectedPlaces", null, "Selecione", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Arma</label>
+            <div class="col-md-10">
+                @Html.DropDownList("SelectedWeapons", null, "Selecione", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Verificar Suspeito" class="btn btn-default" />
+            </div>
         </div>
     </div>
-    <div class="form-group">
-        <label class="control-label col-md-2">Local</label>
-        <div class="col-md-10">
-            @Html.DropDownList("SelectedPlaces", "Selecione")
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-md-2">Arma</label>
-        <div class="col-md-10">
-            @Html.DropDownList("SelectedWeapons", "Selecione")
-        </div>
-    </div>
-    <input type="submit" value="Verificar Suspeito" class="btn-default" />
 }
